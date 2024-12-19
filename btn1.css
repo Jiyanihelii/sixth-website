@@ -1,0 +1,87 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f1;  /* Light earthy background color */
+    color: #333;
+}
+
+/* Header Styles */
+.header {
+    background-color: #0f4a18;  /* Earthy green color */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2rem;
+}
+
+/* Main Content Section Styles */
+.main-content {
+    padding: 40px 20px;
+    background-color: #fff7e1;  /* Light yellow background to evoke warmth */
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h2 {
+    font-size: 2rem;
+    color: #116021;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 1.2rem;
+    
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Call to Action Section */
+.cta-section {
+    background-color: #187b2c;  /* Olive green */
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.cta-section h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0f4a18;
+    color: white;
+    margin-top: 40px;
+}
+
+.footer p {
+    font-size: 1rem;
+}

@@ -1,0 +1,106 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #116021;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover, .active {
+    background-color: #575757;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.resources-section {
+    margin-bottom: 30px;
+}
+
+.resources-section h2 {
+    color: #227825;
+    font-size: 28px;
+}
+
+.resources-section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.resources-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resources-section ul li {
+    margin: 5px 0;
+}
+
+.resources-section a {
+    color: #38913b;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.resources-section a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #116021;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 40px;
+}
